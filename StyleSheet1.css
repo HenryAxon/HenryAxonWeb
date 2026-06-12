@@ -1,0 +1,121 @@
+/* Variables (used directly) */
+body, h1, h2, h3, h4, h5, h6, p, a, .container, .button, .button.secondary, input[type="text"], input[type="email"], input[type="password"], textarea, label, .navbar, .navbar .nav-links, .navbar .nav-links li, .navbar .nav-links li a {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  /* Global Styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.5rem;
+    color: #2c7fb8; /* darkened $primary-color by 10% */
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    margin-right: 800px;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Layout */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2c7fb8; /* darkened $primary-color by 10% */
+  }
+  
+  .button.secondary {
+    background-color: #2ecc71;
+  }
+  
+  .button.secondary:hover {
+    background-color: #27ae60; /* darkened $secondary-color by 10% */
+  }
+  
+  /* Forms */
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Navbar */
+  .topnav {
+    background-color: #3498db;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.topnav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.topnav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.topnav a:hover {
+    background-color: #2c7fb8; /* darkened $primary-color by 10% */
+}
+.topnav .icon {
+    display: none;
+  }
